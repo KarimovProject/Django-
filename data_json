@@ -1,0 +1,16 @@
+{
+    "results": [
+        {
+            "first_name": "Katie",
+            "last_name": "Tucker",
+            "age": 53,
+            "country": "Australia"
+        },
+        {
+            "first_name": "Em\u00edlia",
+            "last_name": "Oliveira",
+            "age": 30,
+            "country": "Brazil"
+        }
+    ]
+}
