@@ -26,9 +26,10 @@ def get_def(n):
         data = r.json()
         a = get_male_users(data)
         jami.append(a)
+        print(f"{len(jami)}/{n}")
     tayyor={"results": jami}
     return tayyor
-ready = get_def(2)
+ready = get_def(200)
 data_json = json.dumps(ready, indent=4)
 
 f = open("data_json", "w")
