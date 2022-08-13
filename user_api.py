@@ -29,7 +29,7 @@ def get_def(n):
         print(f"{len(jami)}/{n}")
     tayyor={"results": jami}
     return tayyor
-ready = get_def(200)
+ready = get_def(10)
 data_json = json.dumps(ready, indent=4)
 
 f = open("data_json", "w")
